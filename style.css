@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 html, body {
-    height: 100%; /* Make sure the body takes up the entire height of the viewport */
+    height: 100%; 
+    font-family: 'Poppins', sans-serif;
 }
 body{
     background-image: url('image/bg1.jpg');
@@ -82,7 +83,9 @@ body{
     color: rgba(243, 52, 154, 0.792);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
-
+.con3{
+    background: linear-gradient(to right, rgba(243, 52, 154, 0.214), rgba(0, 12, 37, 0.504));
+}
 
 /* IMAGE WITH TEXT */
 .bgimage1 {
@@ -97,5 +100,11 @@ body{
    
 }
 
-
+.bgimage1 h6{
+    font-size: 1.3rem;
+    color: rgba(24, 1, 24, 0.91);
+}
+.bgimage1 p{
+    color: rgba(127, 0, 68, 0.968);
+}
 
