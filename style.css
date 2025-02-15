@@ -108,3 +108,20 @@ body{
     color: rgba(127, 0, 68, 0.968);
 }
 
+
+.btn-submit{
+    color: white;
+    background-color:rgba(172, 4, 93, 0.588)  ;
+    padding: 8px 20px;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.message-title{
+    color:rgba(172, 4, 93, 0.588)  ;
+    font-size: 1.5rem;
+}
+.conatct-box{
+    border-radius: 10px;
+    /* background: linear-gradient(to right, rgba(243, 52, 154, 0.214), rgba(0, 12, 37, 0.504)); */
+}
